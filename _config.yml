@@ -6,7 +6,7 @@ highlighter:      rouge
 title:            Sharath Bennur
 email:            sharath.bennur@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website for Sharath Bennur, collection of links to writings, code, projects, publications, etc.
+  
 tagline:          'Personal Website'
 url:              https://sharathbennur.github.io
 baseurl:          ''
@@ -25,11 +25,11 @@ plugins:
   - jekyll-paginate
 
 # Sidebar link settings
-sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
-                                # page. If you change your paginate_path,
-                                # set this to the root of the paginate_path
-                                # to enable a separate blog link.
+sidebar_home_link:  false
+sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                              # page. If you change your paginate_path,
+                              # set this to the root of the paginate_path
+                              # to enable a separate blog link.
 
 # Tracker
 # analytics: UA-83979019-1

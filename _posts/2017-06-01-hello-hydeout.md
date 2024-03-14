@@ -5,7 +5,7 @@ excerpt_separator:  <!--more-->
 ---
 
 ```
-KEEPING THIS POST FROM HIDEOUT FOR POSTERITY AND EASY REFERENCING
+KEEPING THIS POST FROM HYDEOUT FOR POSTERITY AND EASY REFERENCING
 ```
 
 Hydeout updates the original [Hyde](https://github.com/poole/hyde)

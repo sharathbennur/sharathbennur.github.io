@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-sidebar_link: true
+title: About this website
+sidebar_link: false
 ---
 
 This personal website is built using [Jekyll](http://jekyllrb.com), the original [Hyde](https://github.com/poole/hyde) and [Hydeout](https://github.com/fongandrew/hydeout/) and published to [Github Pages](https://pages.github.com/). These allow for the generation of a static website using a combination of html, markdown and ruby gems.

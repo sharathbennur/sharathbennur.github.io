@@ -1,6 +1,5 @@
 ---
 layout: category
-title: Markup
+title: About Me
 ---
 
-Another sample category page.

@@ -3,4 +3,13 @@
 # only main files contain this front matter, not partials.
 ---
 
+$sidebar-fg-color: #fff;
+$sidebar-bg-color: #094275;
+$sidebar-sticky: false;
+
+
+$sidebar-title-color: $sidebar-fg-color !default;
+$sidebar-link-color: $sidebar-fg-color !default;
+$sidebar-text-color: rgba($sidebar-fg-color, 0.75) !default;
+$sidebar-icon-color: rgba($sidebar-fg-color, 0.85) !default;
 @import "hydeout";
