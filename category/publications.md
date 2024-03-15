@@ -1,6 +1,7 @@
 ---
 layout: category
 title: Publications
+sidebar_sort_order: 4
 ---
 
 <big>

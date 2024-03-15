@@ -37,8 +37,7 @@ design lightweight and plugin-free. JavaScript is currently limited only
 to Disqus and Google Analytics (and is only loaded if you provide configuration
 variables).
 
-Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
-the CSS degrades into a single column layout.
+Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available, the CSS degrades into a single column layout.
 
 ### Customization
 
@@ -67,8 +66,7 @@ $sidebar-sticky: false;
 @import "hydeout";
 ```
 
-See the [_variables](_sass/hydeout/_variables.scss) file for other variables
-you can override.
+See the [_variables](_sass/hydeout/_variables.scss) file for other variables you can override.
 
 You can see the full set of partials you can replace in the
 [`_includes`](_includes) folder, but there are a few worth noting:
