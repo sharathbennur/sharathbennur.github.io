@@ -1,14 +1,15 @@
 <nav id="sidebar-icon-links">
+  
+  <a id="linkedin-link"
+    class="icon" title="LinkedIn Profile" aria-label="LinkedIn"
+    href="https://www.linkedin.com/in/sharathbennur/">
+    {% include svg/linkedin.svg %}
+  </a>
+  
   <a id="github-link"
       class="icon" title="Github Projects" aria-label="Github Project"
       href="https://github.com/sharathbennur?tab=repositories">
     {% include svg/github.svg %}
-  </a>
-
-  <a id="subscribe-link"
-     class="icon" title="Subscribe" aria-label="Subscribe"
-     href="{{ site.feed.path | default: 'feed.xml' | relative_url }}">
-    {% include svg/feed.svg %}
   </a>
 
   {% comment %}
