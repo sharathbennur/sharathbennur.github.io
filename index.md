@@ -16,9 +16,9 @@ Experienced AI-ML leader with deep expertise in all phases of AI-ML, from ideati
 
 My personal philosophy and details about my experience are below:
 
-- Recently exited Panily ([see archived site](/assets/panily.com/index.html)) - where I created iOS and Android apps that was based on personal experiences; to give patients and their caregivers tools to record and track their healthcare experiences outside of clinical settings. ([details](tags.html#panily))
+- Recently exited Panily ([see archived site](/assets/panily.com/index.html)) - where I created iOS and Android apps that was based on personal experiences; to give patients and their caregivers tools to record and track their healthcare experiences outside of clinical settings. ([details]({% post_url 2022-09-01-why-panily %}))
 - I teach a text analytics course (STATS 7240) at [the Wharton School](https://apps.wharton.upenn.edu/syllabi/202230/STAT7240002/) at the University of Pennsylvannia. ([see more](/assets/md/wharton-course))
-- I have extensive experience with building AI-ML algorithms, from working with stakeholders and partners to understand the problem, to ideating data requirements and AI-ML algorithm design, to working with product and engineering teams to ensure measurable product integration in production ([read more]()).  
+- I have extensive experience with building AI-ML algorithms, from working with stakeholders and partners to understand the problem, to ideating data requirements and AI-ML algorithm design, to working with product and engineering teams to ensure measurable product integration in production ([read more](/assets/md/ai-ml-experience)).  
 - I spearheaded [Iqvia's](https://www.iqvia.com/) foray into decision intelligence and it influences how I think about the value of AI-ML vs other forms of decision support ([read more]({% post_url 2021-09-08-decision-intelligence %})). ([read white paper](assets/pdf/decision-intelligence.pdf))
 - Also experienced in MLOps - started working on MLOps just as it was getting started ([details]({% post_url 2021-03-15-mlops %}))
 

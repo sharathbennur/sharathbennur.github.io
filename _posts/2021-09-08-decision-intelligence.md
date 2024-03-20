@@ -4,7 +4,7 @@ title: "Decision Intelligence"
 excerpt_separator:  <!--more-->
 tags:
   - decision-intelligence
-  - ai-ml
+  - AI-ML
 last_modified_at: 2021-03-15T15:00:00-05:00
 published: true
 ---
