@@ -10,12 +10,11 @@ sidebar_sort_order: 2
 ### Panily LLC, Philadelphia PA 
 Founder (Sep 2021 - Dec 2023)
 
-Bootstrapped [Panily]({{ site.baseurl }}{% link /assets/panily.com/index.html %}) apps based on personal experiences; to give patients and their caregivers digital health tools to record and track health events outside of clinical settings.
-
-* Developed a business plan & product vision for a digital health app based on market research, patient interviews and industry trends.
-* Launched app for iOS and Android by coding an FHIR-compatible mobile app using the Flutter framework (see [archive]()).
-* Pivoted to serving providers, enabling access to shared healthcare data from the Panily app, signed providers - exiting due to funding constraints.
-* Created demo GenAI chatbot that used LLMs (RAG +  Llama / Medalpaca) for patient QA.
+Launched a HealthTech company, [Panily]({{ site.baseurl }}{% link /assets/panily.com/index.html %}), with a vision to give patients and their caregivers digital health tools to record and share health events outside of clinical settings.
+* Developed a business plan & product vision based on market & user research.
+* Coded & launched FHIR-compatible app for iOS and Android using the Flutter framework (see [archive]({{ site.baseurl }}{% link /assets/panily.com/www.panily.com/patient_features.html %})).
+* Successfully onboarded 1st client - a mental health provider network
+* Created demo GenAI chatbot that used LLMs (RAG +  Llama / MedAlpaca) for patient QA
 
 ### The Wharton School, Philadelphia PA
 Adjunct Faculty (Aug 2022 - Present)
