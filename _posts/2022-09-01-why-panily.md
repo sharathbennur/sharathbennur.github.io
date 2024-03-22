@@ -15,6 +15,8 @@ Panily was created based on personal experiences. I was diagnosed with [Gout](ht
     <img style="padding: 25px;" src="/assets/img/why-panily-1.jpg">
 </p>
 
+<!--more-->
+
 The first memory was when I went to the podiatrist with a foot issue, and I couldn't remember which foot had been afflicted a couple of months back - was it my right foot or left? The second memory was when I visited my primary care physician (PCP) and realized that I remembered very few details from my podiatrist visit.
 
 Both experiences were deeply unsettling! During those months of the pandemic, getting gout and not being able to get a diagnosis or treatment was very stressful and painful. But equally painful and embarrassing was not being able to remember the details of my health conditions. Panily was created to solve a problem: where should your healthcare data go when healthcare events happen outside of clinical settings.

@@ -9,7 +9,7 @@ sidebar_sort_order: 1
     <img align="right" width="375" height="375" style="padding: 50px;" src="assets/img/1604496195710.jpeg">
 </p>
 
-## **Hi, I'm Sharath**
+## **Hi, I'm Sharath!**
 
 Experienced AI-ML leader with deep expertise in all phases of AI-ML, from ideation to  building and integration of AI-ML algorithms into products. Passionate about collaborating with partners and working cross-functionally, to optimize decision-making strategies based on data, analytics and data science. I'm very excited by the potential of AI-ML, not just in healthcare & life sciences, but across industries to unlock greater efficiences and new discoveries.
 {: .text-justify}

@@ -17,6 +17,8 @@ Data driven decision-making is an old idea, however - human decision-making is r
     <img style="padding: 25px;" src="/assets/img/decision-intelligence-1.png">
 </p>
 
+<!--more-->
+
 Let's use a simple example - I want to walk from the Wharton school to the iconic Rocky steps at the [Philadelphia Museum of Art](https://philamuseum.org/), what route should I take? For me personally, it depends: if it's a nice day - then I may want to [walk along the river](https://cloudfront-us-east-1.images.arcpublishing.com/pmn/4FC27YKIFBDTXOJOH2QKP6YGCE.jpg) even though its longer route; on a cold windy day - maybe not; or maybe I want a cup of coffee from my favorite cafe that's kind of on the way. All this to say - I'm a noisy human when it comes to deciding this route.
 
 Now consider that Google spends millions of dollars building the [AI-ML algorithms](https://deepmind.com/blog/article/traffic-prediction-with-advanced-graph-neural-networks) behind Google Maps, and you can see why this noisy decision-making might be problematic. There's no guarantee that user's will use these recommendations from Google or even see them (we all have that one friend or relative who uses a mapping app :)

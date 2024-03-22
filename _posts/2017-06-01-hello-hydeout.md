@@ -2,14 +2,19 @@
 layout: post
 title: Hello Hydeout
 excerpt_separator:  <!--more-->
+tags:
+  - development
+  - hydeout
 ---
 
 ```
 KEEPING THIS POST FROM HYDEOUT FOR POSTERITY AND EASY REFERENCING
 ```
 
-Hydeout updates the original [Hyde](https://github.com/poole/hyde)
+[Hydeout](https://github.com/fongandrew/hydeout) updates the original [Hyde](https://github.com/poole/hyde)
 theme for [Jekyll](http://jekyllrb.com) 3.x and 4.x and adds new functionality.
+
+<img alt="Mobile home page" src="/assets/img/introducing-hyde-2.png?raw=true" width="300px" />
 
 ### Keep It Simple
 
@@ -20,6 +25,8 @@ variables).
 
 Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
 the CSS degrades into a single column layout.
+
+<!--more-->
 
 ### Customization
 
