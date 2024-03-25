@@ -3,20 +3,20 @@ layout: post
 title: "Creating this website (Part 2)"
 excerpt_separator:  <!--more-->
 tags:
-  - development
   - hydeout
   - jekyll
+  - tutorial
 last_modified_at: 2024-03-21T15:00:00-05:00
 published: true
 ---
 
 I wanted to customize the look and layout of my site, this post details the steps needed to get something similar. The next steps are entirely optional and dependant on how you want to structure / this site.
 
+<!--more-->
+
 <p>
     <img style="padding: 25px;" src="/assets/img/building-this-site-2.png">
 </p>
-
-<!--more-->
 
 #### Customization
 
@@ -53,7 +53,7 @@ I wanted to customize the look and layout of my site, this post details the step
         ```
       
     * Create a new file in the _layouts folder called `posts.html` with the [following code inside](https://raw.githubusercontent.com/sharathbennur/sharathbennur.github.io/master/_layouts/posts.html). This ensures that there's a new layout available to display blog posts which is independant of the index layout
-    
+
     * Update the `_config.yml` file to reflect this new structure, especially the fields: `url`, `baseurl`, `paginate_path`, `sidebar_home_link` and `sidebar_blog_link`
 
       ```yml

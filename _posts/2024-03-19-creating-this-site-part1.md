@@ -3,7 +3,7 @@ layout: post
 title: "Creating this website (Part 1)"
 excerpt_separator:  <!--more-->
 tags:
-  - development
+  - tutorial
   - hydeout
   - jekyll
 last_modified_at: 2024-03-19T15:00:00-05:00
@@ -12,11 +12,11 @@ published: true
 
 This website was built using [Jekyll](http://jekyllrb.com) (a static site generator) and [Hydeout](https://github.com/fongandrew/hydeout) (theme + additional functionality). I initially tried to use Jekyll and Hyde (the top google search results point to this solution), but turns out - the latest version of Jekyll doesn't work properly with Hyde!
 
+<!--more-->
+
 <p>
     <img style="padding: 25px;" src="/assets/img/introducing-hyde-1.png">
 </p>
-
-<!--more-->
 
 This part 1 of the tutorial has all the steps for creating the basic website and getting it up and running. [Part 2]({% post_url 2024-03-21-creating-this-site-part2 %}) addresses customization required to make it look nice and personalize some functionality.
 
