@@ -15,7 +15,7 @@ published: true
 Data driven decision-making is an old idea, however - human decision-making is really noisy.
 
 <p>
-    <img style="padding: 25px;" src="/assets/img/decision-intelligence-1.png">
+    <img style="padding: 25px;" src="/assets/img/decision-intelligence-1.png" height="400" width="400">
 </p>
 
 <!--more-->

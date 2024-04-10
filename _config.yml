@@ -7,12 +7,12 @@ title:            Sharath Bennur
 email:            sharath.bennur@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   
-tagline:          'Personal Website'
-url:              https://sharathbennur.github.io
-baseurl:          ''
+tagline:          "Personal Website"
+url:              "https://sharathbennur.github.io"
+baseurl:          ""
 author:
-  name:           'Sharath Bennur'
-  url:            https://www.sharathbennur.com
+  name:           "Sharath Bennur"
+  url:            "https://www.sharathbennur.com"
 
 paginate:         5
 paginate_path:    "/blog/page:num/"
@@ -23,14 +23,22 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Sidebar link settings
 sidebar_home_link:  false
-sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+sidebar_blog_link:  "/blog"   # By default, your home page is your blog
                               # page. If you change your paginate_path,
                               # set this to the root of the paginate_path
                               # to enable a separate blog link.
 
 # Tracker
 google_analytics:   432015078
-# analytics: UA-83979019-1
+
+# Exclude pdfs from site-map
+defaults:
+  -
+    scope:
+      path:            "assets/**/*.pdf"
+    values:
+      sitemap:         false
