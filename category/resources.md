@@ -1,10 +1,10 @@
 ---
 # layout: category
-# title: Resources
+# title: AI-ML Resources
 # sidebar_sort_order: 5
 ---
 
-### AI-ML resources
+## Keeping up
 
 In the past, I've been asked for recommendations on how to keep up with the ever changing landscape of AI-ML, LLMs, Generative AI, etc. So, here are some resources I use stay updated no particular order:
 
@@ -12,9 +12,11 @@ In the past, I've been asked for recommendations on how to keep up with the ever
 
 * [Ahead of AI by Sebastian Raschka](https://magazine.sebastianraschka.com/) - writes on Substack on the latest in Natural Language Processing (NLP) research. I especially appreciate his ability to cut through the volume of published research and surface advancements.
 
-### AI-ML tools
+## Tools
 
-#### General
+Here are some tools from the AI-ML space that I've used in the past that I find useful and relevant.
+
+#### Model Gardens
 
 * [Hugging Face](https://huggingface.co/) - open model repository, host a mind-boggling variety of trained deep learning models across use cases.
 * [FastAPI]()
@@ -25,28 +27,16 @@ In the past, I've been asked for recommendations on how to keep up with the ever
 #### NLP specific
 
 * [LangChain]()
+* [SpaCy]()
+* [Gensim]()
+* [NLTK]()
+* 
 
 ### AI-ML tutorials
 
 Various tutorials I've bookmarked over the years:
 
 * [Keras.io tutorials](https://keras.io/examples/) - Keras and TensorFlow specific but a great resource for learning how to use the Keras API
-* [Hugging]
-
-### Cloud tools
-
-Online tools I use regularly both for this website and for work / play
-
-* [Jumpshare](https://jumpshare.com) - Free image and video hosting, some of the larger gifs shown on this site are hosted there.
-* [DreamStudio](https://dreamstudio.ai/generate) - great resource for creating images for this website and in general, and pretty inexpensive.
-* [Grammarly](https://www.grammarly.com/browser) - integrates into browsers, enables grammar checking and a 'improve it' feature that I've found helpful.
-
-### Tech tools
-
-Tech tools I use regularly
-
-* [Obsidian](https://obsidian.md/) - free mind-mapping / writing / note-taking app - really like its cross platform availability
-* [SyncThing](https://syncthing.net/) - 
-
+* [Hugging Face]
 
 ##### (Note: I'm not affiliated with any of these products / organizations unless specified)
