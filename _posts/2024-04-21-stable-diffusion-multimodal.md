@@ -11,9 +11,9 @@ last_modified_at: 2024-04-21T15:00:00-05:00
 published: true
 ---
 
-Despite StableDiffusion having been out for a couple of years, I still find the idea of diffusion models fascinating. I'm not really going to deep dive into how they work as that has been covered extensively by others and in much better detail than I can. See links at the end for some reading materials and to the code used to create these images.
+Even though StableDiffusion has been available for a couple of years, I still find diffusion models to be fascinating. I won't go into too much detail on how they work, as others have already covered it extensively and in greater depth; at the end of this text, you can find some reading materials and the code used to produce the images.
 
-The main idea behind diffusion models is that starting from an image that is random white noise, the model works its way backwards by removing the noise to an image that best represents the **text prompt**. The same idea can also be used to create images that represent the transition from one text prompt to another as shown below.
+A quick summary - when a prompted with some text, a diffusion model starts with an image containing white noise, and then works its way backwards by removing the noise, ultimately resulting in an image that best represents the text prompt. The same process can be used to create images that depict the transition from one text prompt to another, as shown in the images below.
 
 #### Prompt 1
 

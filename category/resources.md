@@ -12,6 +12,8 @@ In the past, I've been asked for recommendations on how to keep up with the ever
 
 * [Ahead of AI by Sebastian Raschka](https://magazine.sebastianraschka.com/) - writes on Substack on the latest in Natural Language Processing (NLP) research. I especially appreciate his ability to cut through the volume of published research and surface advancements.
 
+* [MLOps newsletter]
+
 ## Tools
 
 Here are some tools from the AI-ML space that I've used in the past that I find useful and relevant.
