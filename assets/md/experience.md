@@ -22,7 +22,7 @@ Adjunct Faculty (Aug 2022 - Present)
 Teaching at Wharton was an interesting opportunity that arose organically, 
 
 * Teach Wharton MBA and undergraduate students a text analytics course (theory and applications of text analytics, NLP and LLMs in industry).
-* Links to some of the coursework are [here]().
+* Links to some of the coursework are [here](/assets/md/wharton-course).
 
 ## Previous Experience
 

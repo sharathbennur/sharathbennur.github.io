@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Moving between text prompts using images"
+title: "Visualizing images between text prompts"
 excerpt_separator:  <!--more-->
 tags:
   - generative-ai
