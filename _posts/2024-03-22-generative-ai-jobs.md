@@ -96,7 +96,3 @@ Second - is the **data** related to your role unique (text or multi-modal) and w
 Lastly, **cost** is a crucial factor with a lot of nuances. It can be very expensive to train one of these models, with GPT-4 reportedly [costing $100 million to train](https://www.wired.com/story/openai-ceo-sam-altman-the-age-of-giant-ai-models-is-already-over/). Additionally, the human capital required to train such models is beyond the scope of most organizations and requires experts in generative AI and a skilled engineering team. While fine-tuning these models is possible, it is still an expensive process. 
 
 Organizations will need to consider whether generative AI is a key differentiator or necessary aspect in their industry or for specific roles. Will upskilling current workers with generative AI-based tools provide better ROI or is it better to replace them with generative AI altogether? The answer will vary depending on the industry, role, seniority, complexity, and other factors.
-
-
-
-
