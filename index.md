@@ -5,6 +5,8 @@ sidebar_link: true
 sidebar_sort_order: 1
 ---
 
+Download current resume ([link](https://drive.google.com/file/d/1GzrTO9MfFNLsIdU21KQY6-yet1JUGFPk/view?usp=sharing))
+
 <p>
     <img align="right" width="375" height="375" style="padding: 50px;" src="assets/img/1604496195710.jpeg">
 </p>
