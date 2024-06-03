@@ -12,9 +12,11 @@ last_modified_at: 2024-05-05T15:00:00-05:00
 published: true
 ---
 
-[Teaching at Wharton](/assets/md/wharton-course) has been a lot of fun, and I get to cover a lot of the advances in NLP. However, teaching vs building an application are completely different things, and I've been thinking about an NLP / LLM based project that allows me to explore the utility of the techniques I teach - which brings me to the Miata-bot. At least thats what I'm calling my Miata chatbot that I hope to build over the next few months.
+[Teaching at Wharton](/assets/md/wharton-course) has been incredibly rewarding, especially covering the latest advances in NLP. However, teaching and building an application are vastly different experiences. This contrast inspired me to embark on an NLP/LLM-based project that lets me explore the practical applications of the techniques I teach. Enter the Miata-bot—my Miata chatbot project, which I aim to develop over the next few months.
 
-Why a Miata-bot, because I own a 2019 Miata (Miata is always the answer :)
+Why a Miata-bot?
+
+I own a 2019 Miata, and as the saying goes, "Miata is always the answer" :)
 
 <p>
     <img style="padding: 25px;" src="/assets/img/miata-bot-1.png" width="512" height="384">
@@ -22,14 +24,18 @@ Why a Miata-bot, because I own a 2019 Miata (Miata is always the answer :)
 
 <!--more-->
 
-So what's the plan? Informally, and this plan is likely to change along the way - the plan is to:
+While the plan is likely to evolve, here is the current outline:
 
-- Collect / scrape text data about Miatas and the conversation people have about Miatas. Luckily for me, there are many active Miata communities online - so hopefully they are good sources of textual data for the next steps.
-- Once all the data is in one place, the plan is to use the current LLM techniques (fine-tuning, RAG, etc.) to implement a Miata-bot that can hopefully answer common and not so common questions about Miatas as well
-- This will also require generating question-answer pairs in order to evaluate the quality of the generated text, maybe some red teaming as well
-- This project is also a good way for me to explore how the current ecosystem of packages such as LangChain, HuggingFace, Ray etc can be leveraged to build and deploy specialized LLMs.
-- Lastly, I am very curious about quanitizing my miata-bot and evaluating a quantized bot at the end 🤞🏼.
+- Data Collection: Scrape and gather text data about Miatas from online conversations and forums. Fortunately, there are many active Miata communities that can provide valuable data.
 
-I'm also sharing the code for this project across multiple miata.bot. I'm currently collecting the data from the largest Miata forum - code is at this [github repo](https://github.com/sharathbennur/miata.bot.data).
+- Building an LLM Application: Use the collected data to fine-tune a language model, implementing techniques like fine-tuning and retrieval-augmented generation (RAG) to create a Miata-bot that can answer both common and uncommon questions about Miatas.
 
-I will not be publishing some of this work, but if you are a researcher or a miata enthusiast who wants to collaborate / help and have a tech / AI-ML background, feel free to reach out.
+- Evaluation: Generate question-answer pairs to evaluate the quality of the bot's responses. This may involve some red teaming to test the robustness of the bot.
+
+- Tool Exploration: This project also serves as a way to explore the current ecosystem of packages such as LangChain, Hugging Face, Ray, etc., to build and deploy specialized LLMs.
+
+- Quantization: I am curious about quantizing the Miata-bot and evaluating its performance as a quantized model.
+
+I am sharing the code for this project, which is available on [GitHub](https://github.com/sharathbennur/miata.bot.data). Currently, I am collecting data from the largest Miata forum.
+
+While I don't plan to publish all aspects of this work, I welcome collaboration. If you are a researcher or Miata enthusiast with a tech or AI/ML background and would like to contribute, please feel free to reach out.

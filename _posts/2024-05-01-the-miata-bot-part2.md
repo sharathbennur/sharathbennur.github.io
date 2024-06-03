@@ -13,33 +13,35 @@ last_modified_at: 2024-05-22T15:00:00-05:00
 published: True
 ---
 
-The internet has a lot of data about the different generations of the Mazda Miata, sources include - Mazda, enthusiast forums, social media (FB, reddit, etc), technical documentation, news sites, vendor sites etc. For the purposes of this bot, we're going to consider mostly text data (and associated images and links).
+The internet offers a wealth of information on the different generations of the Mazda Miata. Sources include Mazda's official website, enthusiast forums, social media platforms (such as Facebook and Reddit), technical documentation, news sites, vendor sites, and more. For this bot, we will primarily focus on text data, along with relevant images and links.
 
-The first step to building any bot is collecting the data, but like all data efforts, this is easier said than done. In this post, I'm going to lay out some considerations for gathering the data.
+The first step in creating any bot is data collection, but as with any data-driven task, this can be quite challenging. In this post, I will outline some key considerations for gathering the necessary data.
 
 <!--more-->
 
-1. Which sources should I get data from, what does that mean for actually getting data? As it turns out, the most structured data is on forums and specific sub-reddits each of which have different methods of getting data - scraping and using the Reddit API respectively.
+1. Which sources should I get data from, and what does that mean for the data collection process? It turns out that the most structured data can be found on forums and specific subreddits. Each of these sources requires different methods for data extraction: scraping for forums and using the Reddit API for subreddits.
 
-2. How are we getting this data? 
-  - For forums - I'm using Python + BeautifulSoup4 to parse each subforum, threads and posts for the forums
-  - A python package called PRAW for Reddit.
+2. How are we collecting this data?
+- Forums: I am using Python with the BeautifulSoup4 library to parse each subforum, thread, and post.
+- Reddit: I am utilizing a Python package called PRAW (Python Reddit API Wrapper) to access and gather data from Reddit.
 
 3. What were some challenges?
-- The primary challenge is getting your data without burdening the site or getting banned. Both Reddit and different online forums require restricting the rate of your programs. So writing code with parameters that control over how often requests are made is critical.
-- Another challenge is managing retries - what happens if a request fails. I'm currently using a form of exponential backoff to manage request failures. And we'll talk about recovering from failures next without having to re-collect a lot of data.
-- What about caching and fault-tolerance? Caching partial datasets is really important - especially if you're just using `csv` files vs an actual DB with fault-tolerance or backups. This is done by creating and using cache files for partial datasets and keeping a record of what data has been scraped (to avoid repetition). 
-- I initially started with `csv` files but switched over to using `parquet` files, both for the better compression and as importing/exporting different datatypes was less buggy.
-- Parallelization - given how slow getting the data is, one option is to run parallel threads or multiple machines. I'm currently just running on 1 machine but I will likely to start a cloud VM and run another instance
+- Avoiding Site Burden and Bans: The primary challenge is collecting data without overloading the site or getting banned. Both Reddit and various online forums require rate limiting for your programs. Writing code with parameters to control the frequency of requests is crucial.
+- Managing Retries: Handling request failures is another significant challenge. I am using exponential backoff to manage request failures. We will discuss how to recover from failures without re-collecting large amounts of data.
+- Caching and Fault-Tolerance: Caching partial datasets is essential, especially if you're using CSV files instead of a database with fault-tolerance or backups. This involves creating and using cache files for partial datasets and keeping a record of what data has been scraped to avoid repetition.
+- Selecting a File Format: I initially started with CSV files but switched to Parquet files for better compression and more reliable import/export of different data types.
+- Parallelization: Given the slow pace of data collection, running parallel threads or multiple machines can help. Currently, I'm using a single machine, but I plan to start a cloud VM to run another instance.
 
-4. The data is currently saved as `.parquet` files, I did consider using a postgres DB or a no-SQL DB, and that may well be something I implement in the future depending on needs but right now I'm choosing ease of implementation.
+4. Databases: Currently, the data is saved as .parquet files. While I considered using a PostgreSQL or NoSQL database, I opted for the ease of implementation with Parquet files for now. Depending on future needs, I may transition to a more complex database setup.
 
-5. Associated images and links from posts are relevant meta-data - how should they be collected and used? The current plan is to collect this meta-data and maybe use them to enhance the LLM response in an information retrieval sense.
+5. Meta-data: Associated images and links from posts are relevant meta-data. The plan is to collect this meta-data and potentially use it to enhance the LLM response for information retrieval purposes.
 
-Lastly, I will not be publishing this dataset, but if you are a researcher or a miata enthusiast who wants to collaborate / help and have a tech / AI-ML background, feel free to reach out.
+### Collaboration Invitation
 
-**Current Status**: Done scraping part of my dataset from one of the forums 
+Although I do not plan to publish this dataset, I welcome collaboration from researchers or Miata enthusiasts with a tech or AI/ML background. If you're interested in contributing, feel free to reach out.
+
+**Current Status**: Completed scraping part of the dataset from one forum for the ND generation of Miatas. This dataset should provide enough information to begin prototyping and testing the next steps.
 **Next Steps**: 
-- Convert the data into a form that can be used for fine-tuning and RAG
-- Write code for fine-tuning code and testing.
-- Get data from the the rest of the forum, reddit after that..
+1. Convert the data into a format suitable for fine-tuning and retrieval-augmented generation (RAG).
+2. Write and test the fine-tuning code.
+3. Continue data collection from the rest of the forum and Reddit.
