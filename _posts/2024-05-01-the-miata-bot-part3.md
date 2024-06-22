@@ -21,10 +21,10 @@ So let's start with what the task is and what this means for the data:
 - The current design for the miata-bot is to use a Question-Answering (QA) Language Model (LM) - where users ask it questions about any generation of Miata and the bot provides 'useful' answers (more about this later).
   - So the data used to fine-tune the LM has to be structured as Question-Answer pairs.
   - The original/first post is the question and every response post is assumed to be part of the answer
-- Should all posts be in included? The short answer is probably not as recent improvements in LM performance have largely been attributed to [better training data](). So, if the focus is to use only high quality - how do we determine high quality threads, posts and replies? Some possibilities include:
+- Should all posts be in included? The short answer is probably not as recent improvements in LM performance have largely been attributed to [better training data](#references). So, if the focus is to use only high quality - how do we determine high quality threads, posts and replies? Some possibilities include:
   - Using only threads with a minimum number of replies (at least 5 replies in this dataset)
   - Responses must contain at least 1 sentence with at least 7 words.
-  - What about using measures of language complexity like the [GunningFox index]() to measure language complexity and only keeping responses that are grade level 8 or higher?
+  - What about using measures of language complexity like the [GunningFox index](https://en.wikipedia.org/wiki/Gunning_fog_index) to measure language complexity and only keeping responses that are grade level 8 or higher?
 - What about meta-data if available - should it be included as part of the context for each prompt
   - Posts often contains quotes - they are included in the thread, should they be included in the context or as part of the response?
   - Posts often contain links - should the bot get the text / pdfs from the links, then:
@@ -58,3 +58,11 @@ Upon considering the concerns above - it makes sense to take a different approac
 | Posts          | 463,9712 |
 | External Links | 757,3639 |
 | Conversations  | 881,0540 |
+
+
+### References
+1. Deduplicating Training Data Makes Language Models Better [link](https://arxiv.org/pdf/2107.06499)
+2. Scaling Instruction-Finetuned Language Models [link](https://arxiv.org/pdf/2210.11416)
+3. Training Compute-Optimal Large Language Models [link](https://arxiv.org/pdf/2203.15556)
+4. Towards Trustable Language Models: Investigating Information Quality of Large Language Models [link](https://arxiv.org/pdf/2401.13086)
+
