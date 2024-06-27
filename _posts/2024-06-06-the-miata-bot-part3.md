@@ -57,7 +57,7 @@ Upon considering the concerns above - it makes sense to take a different approac
 | Conversations  | 74,360   |
 | Posts          | 463,9712 |
 | External Links | 757,3639 |
-| Conversations  | 881,0540 |
+| Images         | 881,0540 |
 
 
 ### References
