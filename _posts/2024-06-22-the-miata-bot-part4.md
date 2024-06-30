@@ -89,11 +89,12 @@ LangChain provides high level abstractions for NLP and GenAI tools. In practice,
 
 ### TorchTune
 
-[TorchTune](https://pytorch.org/torchtune/stable/index.html) - I mention TorchTune for completeness.
+[TorchTune](https://pytorch.org/torchtune/stable/index.html) - is a PyTorch native library for pre-processing data, fine-tuning, exporting or quantizing LMs for inference. I mention TorchTune for completeness.
 
-## IN Summary
+For a specific guide on fine-tuning Llama 3 with TorchTune & Q-Lora, see this [link](https://www.philschmid.de/fsdp-qlora-llama3)
 
-That's a 10,000 ft view of these different frameworks and their capabilities. If you are new to this space - expect to spend a lot of time familiarizing yourself with both the theory and APIs.
+## In Summary
 
-I'll have another detailed post in the future about cloud support and pricing for different LMs and LM-based applications. This is a rapidly changing space with a ton of new vendors and offerings, so trying to cut through the noise will be interesting.
+That's a 10,000 ft view of these different frameworks I've come across and their capabilities. If you are new to this space - expect to spend a lot of time familiarizing yourself with the theory behind all of these capabilities, the operational aspects (stack, integrations, etc) and using the APIs as needed. Note that `Ray` or `Transformers` are more general purpose machine learning frameworks, while `LangChain`, `TorchTune` and `LlamaIndex` are specific to LMs.
 
+I'm planning 2 more posts in a similar vein - the first about fine-tuning techniques, RAG and when they are useful or appropriate; and second about cloud support & pricing for different LMs and LM-based applications. This is a rapidly changing space with a ton of new vendors and offerings, so trying to cut through the noise should be interesting.

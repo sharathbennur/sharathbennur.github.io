@@ -24,3 +24,7 @@ There are multiple LM fine-tuning frameworks for Llama3 which were considered in
 ### DPO
 
 ### Q-LORA
+
+## RAG
+
+## Fine-tuning vs RAG
