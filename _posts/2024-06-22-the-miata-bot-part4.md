@@ -13,7 +13,7 @@ last_modified_at: 2024-06-22T15:00:00-05:00
 published: True
 ---
 
-A common design pattern involves creating a wrapper around a commercial providers language models using their APIs and a framework like [LangChain](https://python.langchain.com/v0.2/docs/introduction/). Providers include OpenAI (GPT-Ns), Google (Gemini/Gemma), Cohere, Anthropic (Claude), etc. Fundamentally, this is a reasonable approach if the following are true:
+A common design pattern involves creating a wrapper around a commercial providers language models using their APIs and a framework like [LangChain](https://python.langchain.com/v0.2/docs/introduction/) or [LlamaIndex](https://www.llamaindex.ai/). Providers include OpenAI (GPT-Ns), Google (Gemini/Gemma), Cohere, Anthropic (Claude), etc. Fundamentally, this is a reasonable approach if the following are true:
 
 - The task's value justifies the cost of employing closed-source models at scale.
 - The model provides satisfactory results without requiring fine-tuning.
@@ -26,7 +26,7 @@ The deliberate choice being made for this `Miata.Bot` project is to not use any 
 
 ## Language Model Choice
 
-While there are a number of open-source LMs to choose from ([crow-sourced list](https://github.com/Hannibal046/Awesome-LLM?tab=readme-ov-file#open-llm)), some considerations for selecing a LM include - size (2B | 7B | 70B), who its from (Meta | Mistral | DataBricks | etc), performance on your task, etc. While there's no rubric that I'm aware of for selecting a LM, the choice does depend the context of your task and your technical abilities, amongst other factors.
+While there are a number of open-source LMs to choose from ([crowd-sourced list](https://github.com/Hannibal046/Awesome-LLM?tab=readme-ov-file#open-llm)), some considerations for selecing a LM include - size (2B \| 7B \| 70B), who its from (Meta \| Mistral \| DataBricks etc.), performance on your task, etc. While there's no rubric that I'm aware of for selecting a LM, the choice does depend the context of your task and your technical abilities, amongst other factors.
 
 For this project - the plan is to test fine-tuning Meta's [Llama3 8B language model](https://ai.meta.com/blog/meta-llama-3/). Some reasons for selecting this LM are:
 - Llama3 is an [open-source model](https://llama.meta.com/llama3/license/), meaning it can be downloaded, fine-tuned and used for commercial and non-commercial purposes with some minor limitations.
