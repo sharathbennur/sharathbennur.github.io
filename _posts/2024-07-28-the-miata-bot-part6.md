@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Miata-bot - Part 5 - Fine-Tuning"
+title: "Miata-bot - Part 6 - Fine-Tuning Infrastructure"
 excerpt_separator: <!--more-->
 tags:
   - generative-ai
@@ -9,11 +9,11 @@ tags:
   - fun
   - miata
   - training
-last_modified_at: 2024-07-06T15:00:00-05:00
+last_modified_at: 2024-08-11T15:00:00-05:00
 published: False
 ---
 
-## LM fine-tuning techniques
+## Where to fine-tune
 
 There are multiple LM fine-tuning frameworks for Llama3 which were considered including
 

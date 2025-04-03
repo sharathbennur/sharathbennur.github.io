@@ -7,6 +7,16 @@ sidebar_sort_order: 2
 
 ## Recent Experience
 
+### Axtria Inc, Berkeley Heights NJ 
+Associate Director, Data Science (Jul 2024 - Present)
+
+Responsibilities include business development, program management, delivery and innovation.
+* Responsible for delivery of 2 GenAI MVPs for a large pharma client.
+* Engagement includes program management, team management and interfacing with various client stakeholders and teams to understand vision, strategy, business requirements and integrations.
+* Accountable for growth and innovation in the data science & GenAI space across pharma.
+* Wear multiple business development hats depending on project, client and requirements needed.
+
+
 ### Panily LLC, Philadelphia PA 
 Founder (Sep 2021 - Dec 2023)
 
