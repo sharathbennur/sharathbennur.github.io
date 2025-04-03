@@ -5,7 +5,7 @@ sidebar_link: true
 sidebar_sort_order: 1
 ---
 
-Download current resume ([link](https://drive.google.com/file/d/1GzrTO9MfFNLsIdU21KQY6-yet1JUGFPk/view?usp=sharing))
+Download current resume ([link](https://drive.google.com/file/d/120eHHMrWSsBWbXRdXBMQGwlw3_CxpzwV/view?usp=sharing))
 
 <p>
     <img align="right" width="375" height="375" style="padding: 50px;" src="assets/img/1604496195710.jpeg">
@@ -18,6 +18,7 @@ Experienced AI-ML leader with deep expertise in all phases of AI-ML, from ideati
 
 ### Experience
 
+- Working at life sciences consulting company - [Axtria]() - as a part of the Data Science CoE. The CoE focuses on Generative AI, Machine Learning and MLOps, which is a good fit for my skillset.
 - Launched a HealthTech company - Panily ([see archived site](/assets/panily.com/index.html)) - with a vision to give patients and their caregivers digital health tools to record and share health events outside of clinical settings. ([details]({% post_url 2022-09-01-why-panily %}))
 - Teach a text analytics course (STATS 7240) at [the Wharton School](https://apps.wharton.upenn.edu/syllabi/202230/STAT7240002/) at the University of Pennsylvannia. ([see more](/assets/md/wharton-course))
 - Have extensive experience with building AI-ML algorithms, from working with stakeholders and partners to understand the problem, to ideating data requirements and AI-ML algorithm design, to working with product and engineering teams to ensure measurable product integration in production ([read more](/assets/md/ai-ml-experience)).  
