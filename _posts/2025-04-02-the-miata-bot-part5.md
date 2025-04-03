@@ -9,7 +9,7 @@ tags:
   - fun
   - miata
   - training
-last_modified_at: 2024-07-28T15:00:00-05:00
+last_modified_at: 2025-04-02T15:00:00-05:00
 published: False
 ---
 

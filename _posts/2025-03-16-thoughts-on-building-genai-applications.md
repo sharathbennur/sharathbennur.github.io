@@ -6,7 +6,9 @@ tags:
   - generative-ai
   - application
   - work
-last_modified_at: 2025-16-28T15:00:00-05:00
+  - application
+  - strategy
+last_modified_at: 2025-03-16T15:00:00-05:00
 published: True
 ---
 
