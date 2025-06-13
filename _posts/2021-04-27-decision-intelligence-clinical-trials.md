@@ -12,7 +12,9 @@ last_modified_at: 2021-04-27T15:00:00-05:00
 published: true
 ---
 
-## Case Study: Country Selection for Clinical Trials
+I've included 2 case studies from the white paper I co-wrote while at Iqvia, the case studies are loosely based on what I learnt during my time there. 
+
+## Case Study 1: Country Selection for Clinical Trials
 
 One key step in planning a clinical trial is deciding which countries to include or exclude. This decision is critical, as it directly impacts the trial’s speed, feasibility, and ultimate success.
 
@@ -45,7 +47,7 @@ One solution is to **augment or acquire more robust source data**, or to apply *
 
 In both examples, **data complexity and decision uncertainty** are key indicators that AI/ML could enhance the decision-making process.
 
-## Case Study: Matching Patients to Clinical Trials
+## Case Study 2: Matching Patients to Clinical Trials
 
 Early technology solutions to targeted improved clinical trial recruitment by matching patients to appropriate trials.
 
