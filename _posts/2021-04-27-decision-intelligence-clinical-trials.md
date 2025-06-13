@@ -7,6 +7,7 @@ tags:
   - AI-ML
   - clinical-trials
   - work-experience
+  - iqvia
 last_modified_at: 2021-04-27T15:00:00-05:00
 published: true
 ---

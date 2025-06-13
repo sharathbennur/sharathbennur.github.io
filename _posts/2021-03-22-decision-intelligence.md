@@ -6,6 +6,7 @@ tags:
   - decision-intelligence
   - AI-ML
   - work-experience
+  - iqvia
 last_modified_at: 2021-03-22T15:00:00-05:00
 published: true
 ---
@@ -58,3 +59,5 @@ This brings us to decision intelligence - while your data science team may creat
 <img align="right" height="250" style="padding: 25px;" src="/assets/img/decision-intelligence-6.png">
 
 On that last point, decision intelligence is fairly agnostic on what kind of decision support is built into your product - think relying on human judgement vs. analytics dashboards vs. statistics vs. using business rules vs. relying on AI-ML completely etc.
+
+**_NOTE:_** Read about applying decision intelligence to clinical trials [here]({% post_url 2021-04-27-decision-intelligence-clinical-trials %})

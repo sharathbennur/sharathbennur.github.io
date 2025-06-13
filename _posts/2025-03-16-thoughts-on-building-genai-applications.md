@@ -28,7 +28,7 @@ Perplexity highlights how important the user experience is by departing from the
 
 ## Build for a domain
 
-As most readers are aware, GenAI applications are rapidly redefining and in many cases replacing existing applications. In many cases, there is potential for entire families of tasks or certain types of jobs to be replaced or updated. I had written about [decision intelligence](({% post_url 2021-09-08-decision-intelligence %})) as being key to unlocking the potential of machine learning and data science by merging workflows, processes and ML.
+As most readers are aware, GenAI applications are rapidly redefining and in many cases replacing existing applications. In many cases, there is potential for entire families of tasks or certain types of jobs to be replaced or updated. I had written about [decision intelligence](({% post_url 2021-03-22-decision-intelligence %})) as being key to unlocking the potential of machine learning and data science by merging workflows, processes and ML.
 
 Similarly, building GenAI applications to solve a specific user problem within a specific domain or process or workflow is key. Teams that focus on understanding the challenges the business is focused on, or on user pain points, and solve for them using GenAI are most likely to deliver value and succeed.
 

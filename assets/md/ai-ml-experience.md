@@ -8,7 +8,7 @@ tags:
 
 I am passionate about improving outcomes through technology, data, and data science. My experience in AI-ML ranges from **ideation to implementation, ML-Ops, and generative AI**. In my previous roles, I have **led teams working on AI-ML algorithms** that required both supervised and unsupervised machine learning. This includes **recommendation engines, classification, optimization, regression, natural language processing, and complex ensemble models** like Next Best action/customer/etc.
 
-My work has involved working cross-functionally with business stakeholders, and product and engineering teams to ideate and prioritize data science projects across global organizations. I also have expertise in [decision intelligence]({% post_url 2021-09-08-decision-intelligence %}) - which combines fields such as AI-ML, and behavioral sciences, to support improved decision-making.
+My work has involved working cross-functionally with business stakeholders, and product and engineering teams to ideate and prioritize data science projects across global organizations. I also have expertise in [decision intelligence]({% post_url 2021-03-22-decision-intelligence %}) - which combines fields such as AI-ML, and behavioral sciences, to support improved decision-making.
 
 While my experience spans analytics, statistical analysis, traditional machine learning, deep learning, and most recently using LLMs for various tasks, the choice of methodology depends on the context, complexity of the data, and available resources vs. being pre-determined.
 
