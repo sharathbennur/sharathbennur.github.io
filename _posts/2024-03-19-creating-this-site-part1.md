@@ -70,8 +70,8 @@ Some hard and soft pre-requisites for building this type of site:
 6. In my installation, I needed to install some additional gems before the previous step worked:
 
     ```
-    gem install jekyll jekyll-gist jekyll-sitemap jekyll-seo-tag
-    gem add webrick
+    sudo gem install jekyll jekyll-gist jekyll-sitemap jekyll-seo-tag bundle rake jekyll
+    sudo gem add webrick
     ```
 
 7. I ended up customizing many elements of my Jekyll+Hydeout project, details are in [Part 2]({% post_url 2024-03-21-creating-this-site-part2 %}). If you want to use the project as is, here are some suggested next steps:
