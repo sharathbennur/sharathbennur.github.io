@@ -11,7 +11,7 @@ tags:
   - content-generation
   - ai-generated
 last_modified_at: 2025-18-10T15:00:00-05:00
-published: False
+published: True
 ---
 
 # Exhaust Systems for Mazda Miata (MX‑5): The Ultimate Buyer's Guide for NA, NB, NC & ND 
