@@ -10,8 +10,8 @@ tags:
   - miata
   - content-generation
   - ai-generated
-last_modified_at: 2025-18-10T15:00:00-05:00
-published: True
+last_modified_at: 2025-08-18T15:00:00-05:00
+published: true
 ---
 
 # Exhaust Systems for Mazda Miata (MX‑5): The Ultimate Buyer's Guide for NA, NB, NC & ND 
@@ -20,9 +20,12 @@ published: True
 
 Find the best exhaust for your Miata — sound, power, fitment, and legal tips for NA/NB/NC/ND. Brands, dyno expectations, and a practical buying checklist.
 
+<!--more-->
+
 ### Introduction
 
-Choosing the right exhaust is one of the most impactful—and often most confusing—upgrades for any Miata owner. The MX‑5’s light chassis and small‑displacement engines make exhaust choices matter for sound throttle response, weight, and modest power gains when combined with complementary mods. Whether you own a classic NA or the modern ND, a carefully chosen cat‑back, header, or downpipe can transform the driving experience without undermining comfort or legality.                                                        
+Choosing the right exhaust is one of the most impactful—and often most confusing—upgrades for any Miata owner. The MX‑5’s light chassis and small‑displacement engines make exhaust choices matter for sound throttle response, weight, and modest power gains when combined with complementary mods. Whether you own a classic NA or the modern ND, a carefully chosen cat‑back, header, or downpipe can transform the driving experience without undermining comfort or legality.
+
 This guide walks you step‑by‑step through exhaust basics, realistic performance expectations, emissions and CARB considerations, and generation‑specific recommendations for NA, NB, NC, and ND Miatas. You’ll find brand picks, cost ranges, installation advice, and a practical buying checklist so you can decide: sound, power, or legal compliance.
 
 ## Exhaust Basics: What Every Miata Owner Should Know

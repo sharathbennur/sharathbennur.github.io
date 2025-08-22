@@ -8,7 +8,7 @@ tags:
   - agents
   - work
   - crewai
-last_modified_at: 2025-18-10T15:00:00-05:00
+last_modified_at: 2025-08-18T15:00:00-05:00
 published: True
 ---
 
@@ -20,6 +20,8 @@ The high level goals for this experiment with CrewAI were pretty straightforward
 3. Learn enough to use it for both work and for side-projects that might arise in the future.
 
 The actual code / agents / tasks were created to write an authoritative and well researched article / blog post on a subject near and dear to my heart - namely Miatas (see post about a future/past Miata-bot [here]({% post_url 2024-05-01-the-miata-bot-part1 %})). Could I get a set of agents to write an interesting post about a Miata related topic (namedly after-market Exhaust systems), that I was familiar with? This way, I would not only be in a position to assess the accuracy and quality of what was writte but hopefully learn something new as well. 
+
+<!--more-->
 
 ### What agents did I use?
 
@@ -87,7 +89,7 @@ write_task = Task(
 
 At the end of this 2 day experiment with crewai, here are some of my learnings:
 - Building agents is becoming remarkably easy, however workflow, state and memory management do not seem trivial.
-- To see / run the code (you will need to copy the Jupyter notebook and provide your own Openrouter / OpenAI API key) I used to create the article, see [this link] ({% 2025-08-18-what-the-agents-wrote.md %}).
+- To see / run the code (you will need to copy the Jupyter notebook and provide your own Openrouter / OpenAI API key) I used to create the article, see this [link]({% post_url 2025-08-18-what-the-agents-wrote %}).
 
 ### Positives:
 

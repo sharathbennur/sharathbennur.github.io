@@ -18,6 +18,8 @@ I have been building 2 GenAI applications with a client for the last 6 months, s
     <img style="padding: 25px;" src="https://lh3.googleusercontent.com/d/1wMD_J8rCcwP6mUPzFgwJjekkAeNxWzmX=s600">
 </p>
 
+<!--more-->
+
 ## The user experience
 
 As this space has matured, user expectations for differentiated products have only gone up. Most organizations started with a ChatGPT clone or wrapper, and a lot of GenAI applications today look similar. Meaning, its increasingly difficult to stand out. For example, in the exploratory data analysis (EDA) space, cloud providers, startups and different vendors all have their own product and these inevitably look similar, but have nearly identical features. So how does a poor GenAI application stand out if all applications are using the same models below the hood?
