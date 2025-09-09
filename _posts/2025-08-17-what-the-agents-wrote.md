@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What the agents wrote"
+title: "Exhaust Systems for Mazda Miata (MX‑5): The Ultimate Buyer's Guide for NA, NB, NC & ND"
 excerpt_separator: <!--more-->
 tags:
   - generative-ai
@@ -10,11 +10,15 @@ tags:
   - miata
   - content-generation
   - ai-generated
-last_modified_at: 2025-08-18T15:00:00-05:00
+last_modified_at: 2025-08-17T14:00:00-05:00
 published: true
 ---
 
-# Exhaust Systems for Mazda Miata (MX‑5): The Ultimate Buyer's Guide for NA, NB, NC & ND 
+<div class="info-note">
+  <p><strong>Note:</strong> This post was generated using using the help of AI. Generative AI can make mistakes, check the included information before making any important decisions</p>
+</div>
+
+> This post is a companion to this [one]({% post_url 2025-08-18-the-building-agents-with-crewai %}).
 
 #### Meta description: 
 

@@ -89,7 +89,7 @@ write_task = Task(
 
 At the end of this 2 day experiment with crewai, here are some of my learnings:
 - Building agents is becoming remarkably easy, however workflow, state and memory management do not seem trivial.
-- To see / run the code (you will need to copy the Jupyter notebook and provide your own Openrouter / OpenAI API key) I used to create the article, see this [link]({% post_url 2025-08-18-what-the-agents-wrote %}).
+- To see / run the code (you will need to copy the Jupyter notebook and provide your own Openrouter / OpenAI API key) I used to create the article, see this [link]({% post_url 2025-08-17-what-the-agents-wrote %}).
 
 ### Positives:
 
