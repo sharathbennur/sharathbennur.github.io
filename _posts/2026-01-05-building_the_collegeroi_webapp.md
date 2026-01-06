@@ -13,19 +13,19 @@ last_modified_at: 2026-01-05T15:00:00-05:00
 published: True
 ---
 
+I built and deployed [CollegeROI.app](https://www.collegeroi.app) in about 2.5 working days (~20hrs) using coding assistants. This project served two purposes: to experiment with the evolving landscape of AI software development, and to address the increasingly relevant question of college ROI.
+
 ### First some context
 
-A college education is absurdly expensive in the US and when families discover what it truly costs for their child to attend college, there is some serious sticker-shock. This webapp - [CollegeROI.app](https://www.collegeroi.app) - was initially built as a GoogleSheets financial model that allowed our family to compare and evaluate different college options at different price-points. You can pay a very similar tuition at different colleges, but when you look at the first year starting salary - some colleges clearly offer better value.
+A college education is absurdly expensive in the US and when families discover what it truly costs for their child to attend college, there is some serious sticker-shock. To understand the tradeoffs better, I initially used a GoogleSheets financial model that allowed our family to compare and evaluate different college options at different price-points. You can pay a very similar tuition at different colleges, but when you look at the first year starting salary - some colleges clearly offer better value.
+
+### What was built
 
 I had been planning to convert that GoogleSheet into a webapp for a while, but never really had the time. However, as the buzz about coding assistants and the future of software development got louder, using a coding assistant to turn the GoogleSheet into a webapp as an experiment - seemed like a win-win. The choice of a coding assistant - Google Gemini Pro 3 Preview - was largely driven by getting a free subscription for a year thanks to buying a Pixel phone (shoutout to Google), the alternate plan was to get Claude Code ($20/month).
 
-### The final product
-
-Click [CollegeROI.app](https://www.collegeroi.app) to see the final webapp, and this app was built entirely using a coding-assistant. Read more about what the experience was like below.
+Although I have extensive coding experience, I have minimal/no experience writing in Typescript or with React. Aside from minor text tweaks, the HTML and React code were generated entirely by Gemini. Below is a subset of the most interesting prompts; you can view the full list [here]({{ site.url }}/assets/md/collegeroi_prompts.html).
 
 <!--more-->
-
-While I have extensive coding experience, apart from changing some text or labels here and there, the webapp, the HTML, the react code, etc. were written entirely by the Gemini coding-assistant. Rather than list all the prompts used, I've listed a sub-set of prompts that were interesting, you can see the full list of prompts [here]({{ site.url }}/assets/md/collegeroi_prompts.html).
 
 ### Unexpectedly Successful Prompts
 
@@ -101,3 +101,7 @@ The development of the CollegeROI application was incredibly straighforward, sho
 * Not all test cases worked out of the box, many needed additional troubleshooting - which involved sharing error messages with Gemini
 * Gemini and Github CoPilot both struggeled to write the test for a linked button that routed to a different page, I mean really struggled. From what I could read online - the method used was somehow deprecated or not-recommended, so though the code was correct, it no longer worked.  
 * Gemini missed some commas when adding the box for financial aid
+
+#### Links
+* You can see [the original spreadhsheet here](https://docs.google.com/spreadsheets/d/1lC7rpbWDPf1Vnq_FqvW5jgpvRCJXSpyjA9qFk9WWwsc/edit?usp=sharing)
+* CollegeROI [Github Repo](https://github.com/sharathbennur/collegeroi/)
