@@ -7,15 +7,31 @@ sidebar_sort_order: 2
 
 ## Recent Experience
 
+### Sanofi US, Morristown NJ 
+Product Line Owner, Portfolio Management (Sep 2025 - Present)
+
+Responsibilities include:
+* Integrating AI/ML, agents and business logic into R&D applications for portfolio management.
+* Portfolio management applications for CI and PTRS.
+
 ### Axtria Inc, Berkeley Heights NJ 
-Associate Director, Data Science (Jul 2024 - Present)
+Associate Director, Data Science (Jul 2024 - Aug 2025)
 
-Responsibilities include business development, program management, delivery and innovation.
+Responsibilities included business development, program management, delivery and innovation.
 * Responsible for delivery of 2 GenAI MVPs for a large pharma client.
-* Engagement includes program management, team management and interfacing with various client stakeholders and teams to understand vision, strategy, business requirements and integrations.
+* Engagement included program management, team management and interfacing with various client stakeholders and teams to understand vision, strategy, business requirements and integrations.
 * Accountable for growth and innovation in the data science & GenAI space across pharma.
-* Wear multiple business development hats depending on project, client and requirements needed.
+* Wore multiple business development hats depending on project, client and requirements needed.
 
+## Previous Experience
+
+### The Wharton School, Philadelphia PA
+Adjunct Faculty (Aug 2022 - Jun 2024)
+
+Teaching at Wharton was an interesting opportunity that arose organically, 
+
+* Taught Wharton MBA and undergraduate students a text analytics course (theory and applications of text analytics, NLP and LLMs in industry).
+* Links to some of the coursework are [here](/assets/md/wharton-course).
 
 ### Panily LLC, Philadelphia PA 
 Founder (Sep 2021 - Dec 2023)
@@ -25,16 +41,6 @@ Launched a HealthTech company, [Panily]({{ site.baseurl }}{% link /assets/panily
 * Coded & launched FHIR-compatible app for iOS and Android using the Flutter framework (see [archive]({{ site.baseurl }}{% link /assets/panily.com/www.panily.com/patient_features.html %})).
 * Successfully onboarded 1st client - a mental health provider network
 * Created demo GenAI chatbot that used LLMs (RAG +  Llama / MedAlpaca) for patient QA
-
-### The Wharton School, Philadelphia PA
-Adjunct Faculty (Aug 2022 - Present)
-
-Teaching at Wharton was an interesting opportunity that arose organically, 
-
-* Teach Wharton MBA and undergraduate students a text analytics course (theory and applications of text analytics, NLP and LLMs in industry).
-* Links to some of the coursework are [here](/assets/md/wharton-course).
-
-## Previous Experience
 
 ### IKS Health, Remote
 Part-time Consultant (Oct 2021 - Dec 2022)

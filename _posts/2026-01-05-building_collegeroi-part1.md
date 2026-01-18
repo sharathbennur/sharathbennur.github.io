@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building the CollegeROI webapp with a coding assistant"
+title: "Building the CollegeROI webapp with a coding assistant - Part 1"
 excerpt_separator: <!--more-->
 tags:
   - coding
@@ -17,15 +17,19 @@ I built and deployed [CollegeROI.app](https://www.collegeroi.app) in about 2.5 w
 
 ### First some context
 
-A college education is absurdly expensive in the US and when families discover what it truly costs for their child to attend college, there is some serious sticker-shock. To understand the tradeoffs better, I initially used a GoogleSheets financial model that allowed our family to compare and evaluate different college options at different price-points. You can pay a very similar tuition at different colleges, but when you look at the first year starting salary - some colleges clearly offer better value.
+College costs in the US can cause serious sticker shock. To navigate these trade-offs, I built a Google Sheets model to compare options. I found that while tuitions are often similar, starting salaries—and thus true value—can vary significantly.
 
 ### What was built
 
-I had been planning to convert that GoogleSheet into a webapp for a while, but never really had the time. However, as the buzz about coding assistants and the future of software development got louder, using a coding assistant to turn the GoogleSheet into a webapp as an experiment - seemed like a win-win. The choice of a coding assistant - Google Gemini Pro 3 Preview - was largely driven by getting a free subscription for a year thanks to buying a Pixel phone (shoutout to Google), the alternate plan was to get Claude Code ($20/month).
+I had long planned to convert my Google Sheet into a webapp but lacked the time. However, the rise of AI coding assistants made this the perfect experiment. I chose Google Gemini Pro 3 Preview primarily because it came free with my Pixel phone; otherwise, I would have opted for Claude Code.
 
-Although I have extensive coding experience, I have minimal/no experience writing in Typescript or with React. Aside from minor text tweaks, the HTML and React code were generated entirely by Gemini. Below is a subset of the most interesting prompts; you can view the full list [here]({{ site.url }}/assets/md/collegeroi_prompts.html).
+<p>
+    <img style="padding: 25px;" src="/assets/img/collegeroi-screenshot.png" width="512" height="384">
+</p>
 
 <!--more-->
+
+Although I have extensive coding experience, I have minimal/no experience writing in Typescript or with React. Aside from minor text tweaks, the HTML and React code were generated entirely by Gemini. Below is a subset of the most interesting prompts; you can view the full list [here]({{ site.url }}/assets/md/collegeroi_prompts.html).
 
 ### Unexpectedly Successful Prompts
 
