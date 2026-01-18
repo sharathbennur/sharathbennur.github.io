@@ -13,7 +13,7 @@ Download current resume ([link](https://drive.google.com/file/d/1a2ZGMHTFxqdhzBi
 
 ## **Hi, I'm Sharath!**
 
-Experienced AI-ML leader with deep expertise in all phases of AI-ML, from ideation to  building and integration of AI-ML algorithms into products. Passionate about collaborating with partners and working cross-functionally, to optimize decision-making strategies based on data, analytics and data science. I'm very excited by the potential of AI-ML, not just in healthcare & life sciences, but across industries to unlock greater efficiences and new discoveries.
+Experienced leader with deep expertise in all phases of AI-ML, Generative AI, and agents — from ideation to product integration. Passionate about cross-functional collaboration to optimize decision-making using data science. Excited by the potential of AI to unlock efficiencies and new discoveries in healthcare, life sciences, and beyond.
 {: .text-justify}
 
 ### Experience
