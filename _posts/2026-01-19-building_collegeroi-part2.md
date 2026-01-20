@@ -9,8 +9,8 @@ tags:
   - agents
   - work
   - gemini
-last_modified_at: 2026-01-17T15:00:00-05:00
-published: False
+last_modified_at: 2026-01-19T15:00:00-05:00
+published: True
 ---
 
 I hadn't planned a part 2 to the original post on creating [CollegeROI.app](https://www.collegeroi.app), but I was unhappy with the initial test coverage and quality. Both Gemini 3 Pro and GitHub Copilot struggled to write tests that consistently passed for the application's core logic.
@@ -23,14 +23,30 @@ So round 2 of using coding-assistants to write tests was focused on addressing t
 
 <!--more-->
 
-<p>
-    <img style="padding: 25px;" src="/assets/img/collegeroi-2.png" width="512" height="384">
-</p>
+Below are some screenshots of how the coding-assistant aided the process of writing tests. Some interesting things to note about where agentic IDEs like Antigravity seem to be headed:
 
-<p>
-    <img style="padding: 25px;" src="/assets/img/collegeroi-3.png" width="512" height="384">
-</p>
+1. Control over how you interact with the coding assistant, and you can pick specific modes and policies or combinations of them:
+    - Agentic modes:
+        - Planning: Agent can plan before executing tasks.
+        - Fast: Agent will execute tasks directly. 
+    - Review policy:
+        - Always Proceed: Agent never asks for review
+        - Request Review: Agent always asks for review
+2. Once you give an agent a task, in the mode I selected - it write code, ran the code, and if the code failed as shown in the screenshot below, it will asked permission to continue refining and testing the code it was writing, until the code passed all tests.
 
+    <p>
+        <img style="padding: 25px;" src="/assets/img/collegeroi-2.png" width="512" height="384">
+    </p>
+
+3. The part that surprised me the most in this phase of my experiement with coding assistants was the ability to integrate the coding assistant into the Github Actions CI/CD pipeline. As shown in the screenshot below, the coding assistant was able to successfully integrate the test suite into the CI/CD pipeline - so if any of the tests fail, the CI CD pipeline on Github actions fails as well and the updated code is not built and deployed on firebase hosting. 
+
+    <p>
+        <img style="padding: 25px;" src="/assets/img/collegeroi-3.png" width="512" height="384">
+    </p>
+    
+    This is something that in the past would have taken a fair bit of time as you have to get the syntax exactly right and each pipeline takes time to run. All it took here was this single prompt: `Integrate the tests so that if the tests fail, the CI CD pipeline on Github actions fails as well and the updated code is not built and deployed on firebase hosting`. 
+    
+    All in all, this is a huge time-saver.
 
 ---
 
