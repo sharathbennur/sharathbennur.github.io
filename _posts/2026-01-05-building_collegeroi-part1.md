@@ -7,7 +7,7 @@ tags:
   - webapp
   - code-assistant
   - agents
-  - work
+  - collegeroi
   - gemini
 last_modified_at: 2026-01-05T15:00:00-05:00
 published: True
@@ -107,5 +107,5 @@ The development of the CollegeROI application was incredibly straighforward, sho
 * Gemini missed some commas when adding the box for financial aid
 
 #### Links
-* You can see [the original spreadhsheet here](https://docs.google.com/spreadsheets/d/1lC7rpbWDPf1Vnq_FqvW5jgpvRCJXSpyjA9qFk9WWwsc/edit?usp=sharing)
+* You can see [the original spreadsheet here](https://docs.google.com/spreadsheets/d/1lC7rpbWDPf1Vnq_FqvW5jgpvRCJXSpyjA9qFk9WWwsc/edit?usp=sharing)
 * CollegeROI [Github Repo](https://github.com/sharathbennur/collegeroi/)

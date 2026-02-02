@@ -7,8 +7,8 @@ tags:
   - webapp
   - code-assistant
   - agents
-  - work
   - gemini
+  - collegeroi
 last_modified_at: 2026-01-19T15:00:00-05:00
 published: True
 ---
@@ -78,5 +78,5 @@ I've included some screenshots of how the coding-assistant shared its progress w
 ---
 
 #### Links
-* You can see [the original spreadhsheet here](https://docs.google.com/spreadsheets/d/1lC7rpbWDPf1Vnq_FqvW5jgpvRCJXSpyjA9qFk9WWwsc/edit?usp=sharing)
+* You can see [the original spreadsheet here](https://docs.google.com/spreadsheets/d/1lC7rpbWDPf1Vnq_FqvW5jgpvRCJXSpyjA9qFk9WWwsc/edit?usp=sharing)
 * CollegeROI [Github Repo](https://github.com/sharathbennur/collegeroi/)
