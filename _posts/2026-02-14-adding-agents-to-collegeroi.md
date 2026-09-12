@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adding agents to the CollegeROI webapp - Part 1"
+title: "Adding agents to the CollegeROI webapp"
 excerpt_separator: <!--more-->
 tags:
   - coding
@@ -9,7 +9,7 @@ tags:
   - gemini
   - collegeroi
 last_modified_at: 2026-02-14T15:00:00-05:00
-published: False
+published: True
 ---
 
 Building just a webapp for computing the ROI for colleges was never the end goal. Instead there were 2 end goals:
@@ -107,3 +107,9 @@ I tested the endpoint with a request for "Stanford University" to verify it retu
 The agent successfully processed the request, returned the estimated tuition cost, and provided a list of valid source URLs.
 ```
 
+## So what's next?
+
+Coding assistants are already making it really easy to build software and as they improve across the entire software development stack - just like we don't know if we're talking with a human over chat or bot - we will no longer know if the code was written by a person or a bot. Does it matter?
+
+While knowing who wrote the code for matters like compliance, safety, privacy and security - AI itself offers a solution.
+Coding assistants can also write tests given requirements around compliance, security and privacy - which ultimately makes both compliance and the software development process easier.
